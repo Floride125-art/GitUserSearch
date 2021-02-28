@@ -7,6 +7,8 @@ import { FormComponent } from './form/form.component';
 import { NavComponent } from './nav/nav.component';
 import { UserComponent } from './user/user.component';
 import { RepositoriesComponent } from './repositories/repositories.component';
+import { HoverDirective } from './hover.directive';
+import { UpperPipe } from './upper.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { RepositoriesComponent } from './repositories/repositories.component';
     FormComponent,
     NavComponent,
     UserComponent,
-    RepositoriesComponent
+    RepositoriesComponent,
+    HoverDirective,
+    UpperPipe
   ],
   imports: [
     BrowserModule,
