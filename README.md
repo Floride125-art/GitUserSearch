@@ -12,14 +12,14 @@ Floride Tuyisenge
 * Javascript
 
 #### setup & installation instructions:
-* Open terminal by `Ctrl+ Alt + T   
+* Open terminal by `Ctrl+ Alt + T`  
 * clone `https://github.com/Floride125-art/createQuotes/tree/master`
 * Type `code .` to open vs code editor or `atom .` depending on which editor you are using!
 #### Contacts: 
 * Email:flo.tuyisenge@gmail.com/ FTuyisenge120@daviscollege.com
 * Phone: +250780674917
 #### Link to my live page:
-
+https://Floride125-art.github.io/GitUserSearch/
 
 ####  License information:
 MIT License
