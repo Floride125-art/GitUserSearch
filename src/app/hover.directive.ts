@@ -10,9 +10,12 @@ export class HoverDirective {
     this.lightup("rgba(255,255,255, 255)");
   }
   @HostListener("mouseleave") onMouseLeave(){
-    this.lightup("null");
+    this.lightdown(null);
   }
   private lightup(color:string){
+    this.light.nativeElement.style.backgroundColor= color;
+  }
+  private lightdown(color:null){
     this.light.nativeElement.style.backgroundColor= color;
   }
 }

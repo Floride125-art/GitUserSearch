@@ -5,7 +5,7 @@ import { RequestService} from './request.service';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
-import { RepositoriesComponent } from './repositories/repositories.component';
+
 import { FormComponent } from './form/form.component';
 import { UserComponent } from './user/user.component';
 import { RouterModule } from '@angular/router';
@@ -20,7 +20,6 @@ import { HoverDirective } from './hover.directive';
   declarations: [
     AppComponent,
     NavComponent,
-    RepositoriesComponent,
     FormComponent,
     UserComponent,
     Upper,
