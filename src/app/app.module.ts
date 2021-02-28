@@ -11,6 +11,7 @@ import { RoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { Upper } from './upper.pipe';
 import { HoverDirective } from './hover.directive';
+import {RepositoriesComponent} from './repositories/repositories.component';
 
 
 
@@ -18,6 +19,7 @@ import { HoverDirective } from './hover.directive';
   declarations: [
     AppComponent,
     NavComponent,
+    RepositoriesComponent,
     FormComponent,
     UserComponent,
     Upper,
