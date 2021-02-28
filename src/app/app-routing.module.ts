@@ -3,17 +3,10 @@ import { Routes, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormComponent } from './form/form.component';
 import { UserComponent } from './user/user.component';
-import {RepositoriesComponent} from './repositories/repositories.component';
-
-
 
 const routes: Routes = [
     {path: 'users', component: UserComponent},
-    {path: 'repository', component: RepositoriesComponent},
     {path: '',redirectTo: '/users', pathMatch: 'full'},
-
-
-
 ];
 
 @NgModule({
