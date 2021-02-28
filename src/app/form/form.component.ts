@@ -23,7 +23,7 @@ export class FormComponent implements OnInit {
     public searchMe = '';
     public githubUser: any;
   
-    users: any;
+    users: any ;
     repository: any;
     public searchRepo: any;
 
