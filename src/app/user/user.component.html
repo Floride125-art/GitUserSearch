@@ -10,19 +10,19 @@
       <div class="table table-striped table-bordered">
         <h3>{{users.name}}</h3>
         
-              <p scope="row">Github Username:
+              <p scope="row" style="color: white;">Github Username:
               <a href="{{users.html_url}}" target="_blank">{{users.login|upper}}</a> </p>
               
-              <p scope="row">Repositories:
+              <p scope="row" style="color: white;">Repositories:
               {{users.public_repos }}</p>
           
-              <p scope="row">Date created:
+              <p scope="row" style="color: white;">Date created:
               {{users.created_at | date|upper}}</p>
             
-              <p scope="row">Followers:
+              <p scope="row" style="color: white;">Followers:
               {{users.followers}}</p>
             
-              <p scope="row">Following:
+              <p scope="row" style="color: white;">Following:
               {{users.following}}</p>
       </div>
     </div>

@@ -1,10 +1,10 @@
 .navbar-dark a {
-    /*float: left;*/
     display: inline;
-    color: dodgerblue;
+    color: rgb(12, 125, 163);
     text-align: center;
+  
     padding: 15px 17px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 
